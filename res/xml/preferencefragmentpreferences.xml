@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory 
+        android:title="@string/visual">
+        
+        <PreferenceScreen 
+            android:title="@string/theme" 
+            android:summary="@string/change_theme" 
+            android:key="AppTheme">
+            
+        </PreferenceScreen>
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="Application Version">
+        
+        <Preference 
+            android:title="3.0.1c" 
+            android:selectable="false"/>
+        
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>
