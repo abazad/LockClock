@@ -17,7 +17,7 @@
         android:title="Application Version">
         
         <Preference 
-            android:title="3.0.1c" 
+            android:title="3.0.2c" 
             android:selectable="false"/>
         
     </PreferenceCategory>
